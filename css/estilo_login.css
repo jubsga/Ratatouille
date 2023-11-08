@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Open+Sans:wght@600&family=Oswald:wght@300&family=Poppins:wght@300&family=Quicksand:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+html{
+    color: #000;
+}
+
+body {
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold",Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #000000;
+}
+
+  /* Login */
+
+  .columns{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: #333;
+    font-family: 'SoDoSans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    font-size: 1.4em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+.column-main{
+    width: 600px;
+    background: #fff;
+}
+
+.h4-title{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2em;
+    color: #f77014;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.h1-title{
+    font-family:  'Poppins' sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 100px;
+    color: #c15d22;
+    font-size: 45px;
+}
+
+.block-container .login-fieldset{
+    text-decoration: none;
+    border: none;
+    margin-top: 30px;
+    line-height: 73px;
+}
+
+.label span{
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+span{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #0000001c; 
+    margin-top: 50px;
+    outline: none;
+    border: none;
+    width: 500px;
+    height: 32px;
+    padding: 15px 0px;
+    border-bottom-color: #ff8800;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+    border: solid 1px #1e3932;
+    border-left: #1e3932;
+    border-right: #1e3932;
+    border-top: #1e3932;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    outline: none;
+    color: #b8541a;
+    
+}
+
+.eye{
+    width: 38px;
+    right: 220px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    cursor: pointer;
+    padding: 5px;
+    opacity: 0.8;
+}
+
+.msg{
+    color: #000;
+}
+
+/* .label:after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.2rem;
+    background-color: #094721;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    border-radius: 5px;
+} */
+
+.action-entrar{
+    width: 110px;
+    height: 50px;
+    border: none;
+    border-radius: 200px;
+    font-size: 16px;
+    background: #f77014;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 15px;
+    transition: 350ms linear;
+    margin-top: 30px;
+}
+
+.action-entrar span{
+    color: #fff;
+}
+
+.action-entrar span:hover{
+    color: #f77014;
+}
+
+.action-entrar:hover{
+    transform: scale(1.1);
+    background: #fff;
+    border: #ff8800 1px solid  ;
+    /* opacity: 0.9; */
+}
+
+p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 90px;
+    margin-top: 30px;
+    color: #000;
+}
+
+.button{
+    width: 250px;
+    height: 70px;
+    border: solid 1px #f77014;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 350ms linear;
+    font-weight: 700; 
+    background: #fff;
+}
+
+
+.button:hover{
+    color: #ffffff;
+    transform: scale(1.1);
+    background: #f77014;
+}
+
+.button span{
+    color: #ff8800;
+}
+
+.button span:hover{
+    color: #fff;
+}
+
+.mensagem{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}

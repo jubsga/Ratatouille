@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Oswald:wght@300&family=Poppins:wght@300&family=Quicksand:wght@500&display=swap');
+@import url("../css/confirmarSenha.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.containerPass{
+    width: 100%;
+    height: 70%;
+    box-shadow: 1px 1px 6px #0000001c; 
+    margin-top: 30px;
+    margin-left: -270px;
+    text-align: center;
+    align-items: center;
+}
+
+.confirmarPass{
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm{
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: #1e3932;
+    line-height: 80px;
+    margin-top: 60px;
+}
+
+.inputPass{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #0000001c; 
+    margin-top: 50px;
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 32px;
+    padding: 15px 0px;
+    border-bottom-color: #ff8800;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+    border: solid 1px #1e3932;
+    border-left: #1e3932;
+    border-right: #1e3932;
+    border-top: #1e3932;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    outline: none;
+    color: #b8541a;
+    margin-left: 110px;
+}
+
+.cad{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.action-cad{
+    width: 190px;
+    height: 60px;
+    border: none;
+    border-radius: 200px;
+    font-size: 16px;
+    background: #f77014;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 15px;
+    transition: 350ms linear;
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 55px;
+    gap: 10px;
+}
+
+.action-cad span{
+    color: #fff;
+}
+
+/* .action-cad span:hover{
+    color: #f77014;
+} */
+
+.action-cad:hover{
+    transform: scale(1.1);
+    /* background: #fff;
+    border: #ff8800 1px solid  ; */
+    /* opacity: 0.9; */
+}
+
+.button{
+    width: 130px;
+    height: 50px;
+    border: solid 1px #f77014;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 350ms linear;
+    font-weight: 700; 
+    background: #fff;
+}
+
+.button:hover{
+    color: #ffffff;
+    transform: scale(1.1);
+    background: #f77014;
+}
+
+.button span{
+    color: #ff8800;
+}
+
+.button span:hover{
+    color: #fff;
+}
+
+.icon1{
+    width: 36px;
+}

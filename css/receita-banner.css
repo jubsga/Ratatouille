@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Oswald:wght@300&family=Poppins:wght@300&family=Quicksand:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+ /* Banner */
+
+.banner_wrapper{
+    width: 100%;
+    height: 60vh;
+    background: #f2784b;
+    background: linear-gradient(90deg, #f2784b 0%, #ffa200 100%);
+}
+
+.banner_text{
+    position: absolute;
+    top: 30vh;
+    left: 40vh;
+}
+
+.banner_subtitle{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    letter-spacing: 0.1em;
+}
+
+.banner_title{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: 'Headland One', serif;
+    text-align: left;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.banner_paragrafo{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.banner_shadow{
+    width: 100%;
+    height: 4vh;
+    position: absolute;
+    top: 68vh;
+    background: #0d7133;
+}
+
+/* .circulo{
+    position: absolute;
+    top: 15vh;
+    left: 110vh;
+    width: 450px;
+} */
+
+/* .salada{
+    position: absolute;
+    top: 22vh;
+    left: 121vh;
+    width: 190px;
+} */

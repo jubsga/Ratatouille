@@ -1,0 +1,8 @@
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: rgb(228, 255, 184);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fac86b;
+}

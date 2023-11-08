@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Oswald:wght@300&family=Poppins:wght@300&family=Quicksand:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+html{
+    color: #000;
+}
+
+body{
+    color: #000;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.msg{
+    color: #000;
+}
+
+.container-cad{
+    color: #000;
+}
+
+.container-items{
+    margin: 50px;
+    width: 90%;
+    height: 80%;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 1px 6px #0000001c; 
+    flex-direction: column;
+    padding-bottom: 90px;
+}
+
+.display{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 30vh;
+    grid-column-gap: 30px;
+}
+
+/* .icon-receita{
+    width: 25px;
+    height: 25px;
+} */
+
+.enviar-receita{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.1em;
+    color: #1e3932;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-receita{
+    margin-top: 20px;
+    color: #000;
+}
+
+.container-nome-receita{
+    background: #978d8d1c;
+    color: #000;
+}
+
+.nome-receita{
+    color: #1e3932;
+    font-family:  'Poppins' sans-serif;
+    width: 100%;
+    border: none;
+    box-shadow: 1px 1px 6px #0000001c; 
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    border-bottom-color: #ff8800;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+    border: solid 1px #ff8800;
+    border-left: #ff8800;
+    border-right: #ff8800;
+    border-top: #ff8800;
+}
+
+.container-imagem{
+    margin-top: 30px;
+    padding-top: 30px;
+    background: #978d8d1c;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.imagem-grupo{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-enviar span{
+    color: #1e3932;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+/* .btn-adicionar{
+    margin-top: 110px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: #ff8800;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+} */
+
+.btn{
+    margin-top: 200px;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    background: #ff8800;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-adicionar{
+    color: #1e3932;
+}
+
+.container-info{
+    margin-top: 30px;
+    padding-top: 30px;
+    background: #978d8d1c;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.info-grupo{
+    width: 100%;
+    height: 80%;
+}
+
+.label{
+    color: #1e3932;
+}
+
+.number-input{
+    color: #1e3932;
+}
+
+.container-categoria{
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;   
+}
+
+.categoria{
+    margin-top: 30px;
+    color: #1e3932;
+    cursor: pointer;     
+}
+
+.opcoes{
+    margin-top: 46px;
+    width: 100%;
+    color: #1e3932;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: #ff8800;
+    color: aliceblue;
+    cursor: pointer;    
+    padding: 12px;
+    font-size: 16px;
+}
+
+option{
+    color: aliceblue;
+    font-weight: 600;
+    outline: none;
+    background: #ffa653;
+    color: #1e3932;
+}
+
+.numero{
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background: #ffa653;
+    color: #1e3932;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 20vh;
+}
+
+.time{
+    margin-top: 30px;
+}
+
+.porcao{
+    margin-top: 30px;
+}
+
+.label{
+    text-transform: uppercase;
+}
+
+.container-ingredientes{
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.ingrediente{
+    margin-top: 70px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2em;
+    line-height: 100px;
+    color: #1e3932;
+    font-size: 25px;
+}
+
+.grupo-ingrediente{
+    color: #ff8800;
+}
+
+.texto{
+    color: #ff8800;
+}
+
+.txt-area{
+    width: 100%;
+    margin-top: 25px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 600;
+    outline: none;
+    background: #ffa653;
+    color: #1e3932;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container-preparo{
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.preparo{
+    margin-top: 0px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2em;
+    line-height: 100px;
+    color: #1e3932;
+    font-size: 25px;
+}
+
+.grupo-preparo{
+    color: #ff8800;
+}
+
+.texto{
+    color: #ff8800;
+}
+
+.txt-area{
+    width: 100%;
+    margin-top: 25px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 600;
+    outline: none;
+    background: #ffa653;
+    color: #1e3932;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+li{
+    color: #ff8800;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.enviar{
+    margin-top: 25px;
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    color: aliceblue;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background: #ff8800;
+    transition: 350ms linear;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 6px #0000001c; 
+}
+
+/* .remover-img{
+    color: #1e3932;
+} */
+
+
+
+/* .container-cad .container-items .enviar-receita .form-receita .container-nome-receita .nome-receita .container-imagem .imagem-grupo .enviar-imagem .imagem-receita .remover-img .icon-cam .msg-enviar .btn-adicionar .container-info .info-grupo .conteudo .tempo-preparo .label .icon .number-input .porcao .categoria .opcoes .container-preparo .container-mensagem{
+    color: #000;
+} 
+
+.remover-img span{
+    color: #000;
+}
+ */

@@ -1,0 +1,41 @@
+@media only screen and (min-width:1361px ) and (max-width: 1366px) {
+
+    html{
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        padding: 1px;
+        width: 100%;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        z-index: 2;
+    }
+    
+    .navbar img{
+        width: 130px;
+        position: relative;
+        right: 108px;
+    
+    }
+
+    .nome{
+        position: relative;
+        top: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        left: 55px;
+    }
+
+    .navbar-left div{
+        text-transform: uppercase;
+        font-weight: 600;
+        right: 150px;
+        font-size: 15px;
+        position: relative;
+        display: flex;
+    }
+}
